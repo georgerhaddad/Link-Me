@@ -1,0 +1,79 @@
+/*
+  Welcome to style.css! 🎨
+  This file controls how your page LOOKS.
+
+  Gray text between slash-star and star-slash is a COMMENT.
+  It's a note for humans. The browser ignores it.
+
+  Every CSS rule looks like this:
+
+    selector {
+      property: value;
+    }
+
+    selector = WHAT to style      (examples: body, .link)
+    property = WHICH thing to change  (example: color)
+    value    = WHAT to change it to   (example: red)
+
+  Don't forget the colon  :  and the semicolon  ;
+*/
+
+
+/* STEP 4: Style the whole page */
+body {
+  background-color: #1e1e2e;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+/* STEP 5: Make the profile picture round */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+
+/* STEP 6: Turn the links into buttons */
+.link {
+  display: block;
+  background-color: #89b4fa;
+  color: #1e1e2e;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s; /* added in STEP 8 */
+}
+
+
+/* STEP 7: Stop everything from getting too wide */
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+/* STEP 8: Add a hover effect */
+.link:hover {
+  background-color: #f5c2e7;
+  transform: scale(1.05);
+}
+
+
+/* STEP 9: Finishing touches */
+.bio {
+  color: #bac2de;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #6c7086;
+}

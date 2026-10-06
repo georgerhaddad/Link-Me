@@ -1,0 +1,10 @@
+# Obsidian vault settings
+.obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock files
+~$*
